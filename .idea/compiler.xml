@@ -9,5 +9,8 @@
         <module name="JnkinsJobs" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JnkinsJobs" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

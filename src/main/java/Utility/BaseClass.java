@@ -40,6 +40,7 @@ public class BaseClass {
 
     public void Snapshot()
     {
+        System.out.println("This is snapshot Method");
         TakesScreenshot takesScreenshot = ((TakesScreenshot)driver);
         File fle = takesScreenshot.getScreenshotAs(OutputType.FILE);
         try{

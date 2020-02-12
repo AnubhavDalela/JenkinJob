@@ -8,7 +8,7 @@
     <artifactId>JnkinsJobs</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <suiteXmlFile>src/main/resources/Testng1.xml</suiteXmlFile>
+        <suiteXmlFile>src/main/resources/TesNG.xml</suiteXmlFile>
         <skipTests>false</skipTests>
     </properties>
     <build>
@@ -16,7 +16,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.6</version>
+                <version>2.21.0</version>
                 <configuration>
 
                     <suiteXmlFiles>
